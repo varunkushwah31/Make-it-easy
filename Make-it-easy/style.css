@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.8;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 30px; /* Increase space between image and text */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 1.25rem;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.recipe-list {
+    margin-bottom: 40px;
+}
+
+.recipe-list h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.recipe-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    font-size: 2rem; /* Increased font size for list items */
+    margin-bottom: 25px; /* Increased space between items */
+}
+
+.recipe-list li a {
+    text-decoration: none;
+    color: #4CAF50;
+    transition: color 0.3s ease;
+}
+
+.recipe-list li a:hover {
+    color: #81c784;
+}
+
+.tips {
+    margin-top: 40px;
+}
+
+.tips h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.tips ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tips li {
+    font-size: 1.5rem; /* Increased font size for tips */
+    color: #ccc;
+    margin-bottom: 20px; /* Increased space between tips */
+}
+
+.tips li strong {
+    color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+    color: #888;
+    padding: 15px 0;
+    background-color: #1a1a1a;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .recipe-list li {
+        font-size: 1.75rem; /* Slightly larger font size on smaller screens */
+    }
+
+    footer {
+        font-size: 0.875rem;
+    }
+}
